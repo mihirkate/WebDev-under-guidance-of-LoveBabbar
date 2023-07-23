@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1><b> Complex Form </b></h1>
+      <div>
+        <fieldset>
+          <legend><b>Personal Information</b></legend>
+          <br />
+          <label for="Name"> Name:</label>
+          <input type="text" name="" id="Name" placeholder="Name" />
+
+          <label for="phone"> Phone:</label>
+
+          <input type="tel" name="" id="phone" placeholder="Phone" />
+
+          <label for="email"> Email:</label>
+
+          <input type="text" name="" id="email" placeholder="Email" />
+          <label for="dob"> Date of birth : </label>
+          <input type="date" id="dob" />
+
+          <span>Gender</span>
+          <input type="radio" id="male" name="fav_language" value="male" />
+            <label for="male">Male </label>
+          <!-- <br /> -->
+           
+          <input type="radio" id="female" name="fav_language" value="female" />
+            <label for="female">Female</label>
+          <br />
+          <br />
+
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option value="">--Please choose an option--</option>
+            <option value="indida">India</option>
+            <option value="usa">USA</option>
+            <option value="britain">Britain</option>
+          </select>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend><b>Address</b></legend>
+
+          <label for="street"> Street:</label>
+          <input type="text" name="" id="street" placeholder="street" />
+
+          <label for="area"> Area:</label>
+
+          <input type="text" name="" id="area" placeholder="area" />
+
+          <label for="town"> Town:</label>
+          <input type="text" name="" id="town" placeholder="town" />
+          <label for="city"> City:</label>
+          <input type="text" name="" id="city" placeholder="city" />
+          <label for="state"> State:</label>
+
+          <select name="state" id="state">
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Uttar Pradesh ">Uttar Pradesh</option>
+            <option value="Rajasthan">Rajasthan</option>
+          </select>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend><b>Other Information</b></legend>
+          <label for="comm"><b> Comments</b> </label>
+          <br />
+          <textarea
+            id="comm"
+            rows="5"
+            cols="100"
+            placeholder="Your Comments"
+          ></textarea>
+          <br />
+          <br />
+          <button type="submit" value="Apply ">Submit</button>
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>

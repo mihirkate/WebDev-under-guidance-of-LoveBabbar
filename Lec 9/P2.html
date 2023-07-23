@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><b>Job Application</b></h1>
+    <form>
+      <div>
+        <label for="Name"> Name:</label>
+        <br />
+        <input type="text" name="" id="Name" placeholder="Name" />
+        <br />
+        <br />
+        <label for="phone"> Phone:</label>
+        <br />
+        <input type="tel" name="" id="phone" placeholder="Phone" />
+        <br />
+        <br />
+        <label for="email"> Email:</label>
+        <br />
+        <input type="text" name="" id="email" placeholder="Email" />
+        <br />
+        <br />
+        <label for="resume"> Resume:</label>
+        <br />
+        <input type="file" name="" id="tele" accept="image/png" />
+        <br />
+        <br />
+        <label for="exp"> Experience:</label>
+        <input type="number" name="" id="exp" min="0" max="50" />
+        <br />
+        <fieldset>
+          <legend><strong>Skills</strong></legend>
+          <input type="checkbox" id="html" />
+          <label for="html">HTML</label>
+          <br />
+          <input type="checkbox" id="js" />
+          <label for="js">Javascript</label>
+          <br />
+          <input type="checkbox" id="css" />
+          <label for="css">CSS</label>
+        </fieldset>
+        <label for="edu"><b>Education</b></label>
+        <select name="edu" id="edu">
+          <option value="be">B.E</option>
+          <option value="bsc">B.Sc</option>
+          <option value="btech">B.Tech</option>
+        </select>
+        <br />
+        <br />
+        <fieldset>
+          <legend><strong>Availibilty</strong></legend>
+          <input
+            type="radio"
+            id="parttime"
+            name="fav_language"
+            value="parttime"
+          />
+            <label for="parttime">Part Time</label>
+          <!-- <br /> -->
+           
+          <input
+            type="radio"
+            id="fulltime"
+            name="fav_language"
+            value="Full Time"
+          />
+            <label for="fulltime">Full time</label><br />
+           
+        </fieldset>
+        <label for="comm"><b> Additional comments</b> </label>
+        <br />
+        <textarea
+          id="comm"
+          rows="5"
+          cols="100"
+          placeholder="Your Comments"
+        ></textarea>
+        <br />
+        <br />
+        <button type="Submit" value="Apply ">Apply Here</button>
+        <!-- <progress id="file" max="100" value="50">70%</progress> -->
+      </div>
+    </form>
+  </body>
+</html>
