@@ -1,0 +1,36 @@
+h1{
+    color: black;
+    /* border-radius: 60%;
+    text-align: center;
+  font-weight: 900;
+  border-style: solid ; */
+
+  border:solid rgb(228, 10, 10) 3px;
+  border-width: 8px;
+  height: 60px;
+  border-radius: 90px;
+  text-align: center;
+/* padding-top: 30px; */
+padding: 30px 40px;
+width: 500px;
+margin-left: 425px;
+}
+.firstp{
+    color: black;
+    border-color: blue;
+    text-align: justify;
+    size: 900px;
+    font-size: larger;
+    border:solid rgb(228, 10, 10) 3px;
+    padding: 30px 40px;
+    margin: 50px;
+    
+}
+.secpara{
+    color: black;
+   background-color: burlywood;
+    text-align: justify;
+    font-size: larger;
+    border:solid rgb(5, 84, 79) 3px;
+      
+}
