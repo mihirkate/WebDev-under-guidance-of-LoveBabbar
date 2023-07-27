@@ -1,0 +1,9 @@
+.box{
+    background-color: beige;
+    width: 90%;
+    font-size: 50px;
+    border: 1px solid black;
+    text-align: center;
+    /* cursor:wait; */
+    /* cursor: e-resize;   */
+}
