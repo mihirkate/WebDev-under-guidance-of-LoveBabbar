@@ -4,10 +4,10 @@
     padding: 0;
 }
 #bg{
-    background-color: beige;
+  background-image: linear-gradient(#f5af19,#f12711);
+  /* background-color: beige; */
 }
 .box {
-  background-color: beige;
   width: 90%;
   font-size: 50px;
   border: 1px solid black;
@@ -24,6 +24,7 @@
   border: 7px solid orangered;
   border-radius: 40px;
   background-color: orange;
+  
 }
 #img2 {
   margin: 20px;
@@ -43,7 +44,7 @@ h1 {
   color:black
   border: 3px solid orange;
   border-radius: 30px;
-  background-color: orangered;
+  /* background-color: orangered; */
 }
 h2 {
     margin-top: 20px;

@@ -1,0 +1,35 @@
+.container {
+  background-color: beige;
+  border: 6px solid rgb(0, 0, 0);
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  padding: 30px;
+}
+#box1 {
+  background-color: blue;
+}
+#box2 {
+  background-color: rgba(145, 6, 6, 0.767);
+}
+#box3 {
+  background-color: rgb(104, 150, 191);
+}
+#box4 {
+  background-color: rgba(226, 17, 146, 0.59);
+}
+@media (min-width: 640px) {
+  .container {
+    flex-direction: row;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+}
