@@ -1,0 +1,37 @@
+:root {
+  --primary-color: brown;
+  --custom-width: 330px;
+}
+.container {
+  background-color: beige;
+  height: 650px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  background-color: maroon;
+  color: white;
+  height: 300px;
+  width: var(--custom-width);
+  /* width: 300px; */
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid brown;
+  border-radius: 90px;
+  /* box-shadow: 15px 15px rgba(0, 0, 0, 0.548); */
+  /* box-shadow: 15px 15px 50px rgba(190, 9, 9, 0.584); */
+  /* box-shadow: inset 10px 10px black; */
+  box-shadow: 15px 10px rgba(9, 0, 0, 0.606);
+}
+#head1 {
+  text-shadow: 2px 1px black;
+}
+#head2 {
+  /* text-shadow: 2px 1px rgba(0, 0, 0, 0.327); */
+  text-shadow: rgb(139, 10, 245) 1px 3px 7px;
+}
