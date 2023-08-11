@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 900px;
+  /* width: 900px; */
+  background-color: beige;
+  display: grid;
+  /*   grid-template-rows: 40px 120px 400px 40px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 40px; */
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 600px;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd "
+    "side  side side main main main main main "
+    "ft ft ft ft ft ft ft ft ";
+}
+.box {
+  color: white;
+  font-size: 30px;
+  background-color: brown;
+  border: 1px solid black;
+  text-align: center;
+}
+#header {
+  grid-area: hd;
+}
+#sideBar {
+  grid-area: side;
+}
+#content {
+  grid-area: main;
+}
+#Footer {
+  grid-area: ft;
+}
