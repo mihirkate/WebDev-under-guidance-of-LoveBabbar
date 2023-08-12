@@ -1,0 +1,29 @@
+.container {
+  height: 900px;
+  width: auto;
+  background-color: beige;
+  display: grid;
+  grid-template-rows: 30px 1fr 30px;
+  grid-template-columns: 100px 400px;
+  grid-gap: 10px;
+  grid-template-areas:
+    "hd hd  "
+    "side main "
+    "ft ft";
+}
+.box {
+  color: white;
+  background-color: maroon;
+}
+#header {
+  grid-area: hd;
+}
+#sideBar {
+  grid-area: side;
+}
+#content {
+  grid-area: main;
+}
+#footer {
+  grid-area: ft;
+}

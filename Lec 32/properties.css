@@ -1,0 +1,17 @@
+.container {
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 20px;
+  height: 700px;
+  width: 700px;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.box {
+  color: white;
+  background-color: maroon;
+  border: 3px solid black;
+}
