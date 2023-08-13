@@ -1,6 +1,6 @@
 .container {
   height: 900px;
-  width: auto;
+  width: 100%;
   background-color: beige;
   display: grid;
   grid-template-rows: 30px 1fr 30px;
